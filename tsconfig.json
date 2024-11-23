@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",           // Используем ES модули
+    "target": "ESNext",           // Используем последние стандарты JS
+    "esModuleInterop": true,      // Для совместимости с CommonJS модулями
+    "moduleResolution": "node",   // Разрешение модулей как в Node.js
+    "strict": true,               // Включаем строгую типизацию
+    "skipLibCheck": true,         // Пропуск проверки библиотек
+    "outDir": "./dist",           // Выводим скомпилированные файлы в папку dist
+    "resolveJsonModule": true,    // Разрешаем импорты JSON файлов
+    "allowJs": true               // Разрешаем использование обычных .js файлов
+  },
+  "include": ["src/**/*.ts"],      // Указываем исходные файлы для компиляции
+  "exclude": ["node_modules"]      // Исключаем node_modules
+}

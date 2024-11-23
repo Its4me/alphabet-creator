@@ -1,0 +1,19 @@
+{
+  "name": "alphabet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/d3-shape": "^3.1.6",
+    "@types/node": "^22.9.1",
+    "typescript": "^5.5.3"
+  },
+  "private": true,
+  "dependencies": {
+    "d3-shape": "^3.2.0"
+  }
+}
